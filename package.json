@@ -1,0 +1,30 @@
+{
+  "name": "smile-it-task",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "author": {
+    "name": "Morteza Sabihi",
+    "email": "morteza.sabihi@gmail.com",
+    "url": "https://mortezasabihi.com"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "prepare": "husky install",
+    "commitlint": "commitlint --edit"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.6",
+    "@commitlint/config-conventional": "^17.6.6",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "husky": "^8.0.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.0",
+    "vue-tsc": "^1.8.3"
+  }
+}
