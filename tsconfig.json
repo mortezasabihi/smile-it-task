@@ -33,7 +33,8 @@
     "src/**/*.vue",
     "./eslintrc.cjs",
     "./vite.config.ts",
-    "./vitest.config.ts"
+    "./vitest.config.ts",
+    "./tailwind.config.ts"
   ],
   "references": [{ "path": "./tsconfig.node.json" }],
   "exclude": ["dist", "node_modules"]
