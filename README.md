@@ -1,6 +1,74 @@
-# Vue 3 + TypeScript + Vite
+# SmileIT Code Challenge
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This project is a Vue.js web application built with TypeScript and Tailwind CSS. It includes a development server for local development, a build script for production deployments, and a preview command for testing the production build.
+
+## Getting Started
+
+To get started, clone the repository and install the dependencies using [pnpm ↗](https://pnpm.io/):
+
+```bash
+git clone https://github.com/mortezasabihi/smile-it-task.git
+cd smile-it-task
+pnpm install
+```
+
+## Development Mode
+
+To run the project in development mode, use the following command:
+
+```bash
+pnpm dev
+```
+
+This will start a development server at [http://localhost:5173 ↗](http://localhost:5173). The development server includes hot-reload, so any changes you make to the code will be immediately reflected in the browser.
+
+## Building for Production
+
+To build the project for production, use the following command:
+
+```bash
+pnpm build
+```
+
+This will compile the code and create a production-ready build in the `dist/` directory. You can then deploy the `dist/` directory to your web server.
+
+## Previewing the Production Build
+
+To preview the production build locally, use the following command:
+
+```bash
+pnpm preview
+```
+
+This will start a local web server to serve the production build at http://localhost:8080. This is useful for testing the production build before deploying it to your web server.
+
+## Dependencies
+
+This project was built using the following dependencies:
+
+- Vue.js 3
+- TypeScript
+- Tailwind CSS
+
+## Code Formatting
+
+This project uses ESLint for code formatting. To run the code formatter, use the following command:
+
+```bash
+pnpm lint
+```
+
+## Git Hooks
+
+This project uses Husky and Conventional Commit to enforce a consistent commit message format. This helps to keep the commit history clean and easy to read. 
+
+## Tests
+
+This project includes unit tests using the Vite testing library. To run the tests, use the following command:
+
+```bash
+pnpm test
+```
 
 ## Recommended IDE Setup
 
