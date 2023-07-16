@@ -70,6 +70,11 @@ This project includes unit tests using the Vite testing library. To run the test
 pnpm test
 ```
 
+## TODO
+
+- [ ] Fix production build - (At the current state, I don't have any idea what it doesn't build)
+- [ ] Add a CI/CD pipeline for automated deployments
+
 ## Recommended IDE Setup
 
 - [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
